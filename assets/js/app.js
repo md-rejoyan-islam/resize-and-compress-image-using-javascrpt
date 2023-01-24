@@ -15,8 +15,6 @@ upload.onchange = (e) => {
   photoUploadFunction(imageFile);
 };
 
-
-
 widthShow.onkeyup = (e) => {
   aspectRatio.checked &&
     (heightShow.value = Math.floor(e.target.value / ratio));
