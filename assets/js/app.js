@@ -9,6 +9,7 @@ const asset = document.getElementById("asset");
 const aspectRatio = document.getElementById("aspectRatio");
 const reduceQuality = document.getElementById("reduceQuality");
 
+// image upload
 let ratio = 0;
 upload.onchange = (e) => {
   const imageFile = e.target.files[0];
