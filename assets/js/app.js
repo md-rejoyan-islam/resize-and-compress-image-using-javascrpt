@@ -50,9 +50,11 @@ const download = () => {
   link.click();
 };
 
+// image drag and drop
 dragDrop(photoShow);
 dragDrop(photoUpload);
 
+// drag and drop function
 function dragDrop(location) {
   location.ondrop = (e) => {
     e.preventDefault();
