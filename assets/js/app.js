@@ -62,9 +62,10 @@ function dragDrop(location) {
   };
   location.ondragover = (e) => {
     e.preventDefault();
-    photoUpload.classList.add("hover:bg-green-500");
+    photoUpload.classList.add("bg-green-100");
   };
   location.ondragleave = (e) => {
+    photoUpload.classList.remove("bg-green-100");
     e.preventDefault();
   };
 }

@@ -22,3 +22,6 @@ Draggable File Receive
 ```js
 e.dataTransfer.files[0]
 ```
+
+### Live Website Link
+<a href='https://rejoyanislam.github.io/resize-and-compress-image-using-javascrpt/'>Click</a>
