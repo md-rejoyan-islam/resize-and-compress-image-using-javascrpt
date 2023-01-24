@@ -27,6 +27,7 @@ heightShow.onkeyup = (e) => {
   aspectRatio.checked && (widthShow.value = Math.floor(e.target.value * ratio));
 };
 
+// download image
 let reduce = 0;
 const download = () => {
   const canvas = document.createElement("canvas");
