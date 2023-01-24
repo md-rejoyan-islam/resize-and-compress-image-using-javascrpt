@@ -16,11 +16,13 @@ upload.onchange = (e) => {
   photoUploadFunction(imageFile);
 };
 
+// width value set
 widthShow.onkeyup = (e) => {
   aspectRatio.checked &&
     (heightShow.value = Math.floor(e.target.value / ratio));
 };
 
+// height value set
 heightShow.onkeyup = (e) => {
   aspectRatio.checked && (widthShow.value = Math.floor(e.target.value * ratio));
 };
