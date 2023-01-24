@@ -69,6 +69,7 @@ function dragDrop(location) {
   };
 }
 
+// image preview show
 function photoUploadFunction(imageFile) {
   const url = URL.createObjectURL(imageFile);
   if (!(imageFile.type.split("/")[0] == "image")) return;
